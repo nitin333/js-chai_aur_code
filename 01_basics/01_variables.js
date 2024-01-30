@@ -10,8 +10,8 @@ accountEmail = "nk99@google.com"
 accountPassword = "12345678"
 accountCity = "Gaya"
 
-console.log(accountId);
+// console.log(accountPassword);
 /* 
 Prefer not to use var,because of issue in block scope & functional scope
 */
-console.table([accountId,accountEmail,accountPaswword,accountCity,accountState]);
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
